@@ -1,49 +1,45 @@
 # Cnwitze
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Eins meiner ersten EmberJS Projekte. Eine Frontend-WebApp welche ihre Witze von einer Api als JSON bezieht und anzeigt.
 
-## Prerequisites
+Es können alle Witze, eine bestimmte Anzahl oder Zufällige Witze angezeigt werden.
 
-You will need the following things properly installed on your computer.
+Link zum Projekt:
+[Chuck Norris Witze Seite](http://server.max-bremer.info:8083/CNWitze/)
+
+## Vorraussetzungen
+
+Folgende dinge brauchst du zum ausführen.
 
 * [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
+* [Node.js](http://nodejs.org/) (mit NPM)
 * [Bower](http://bower.io/)
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
+* `git clone <repository-url>` dieses Repository
+* wechsle in das Verzeichnis
 * `npm install`
 * `bower install`
 
-## Running / Development
+## Ausführen / Entwicklung
 
 * `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* Seite aufrufen: [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
+### Tests ausführen
 
 * `ember test`
 * `ember test --server`
 
-### Building
+### Bauen
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+* `ember build` (Entwicklung)
+* `ember build --environment production` (Live betriebt)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
+## Nützliche Links
 
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://www.ember-cli.com/)
