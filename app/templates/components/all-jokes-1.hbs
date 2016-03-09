@@ -1,0 +1,18 @@
+{{yield}}
+
+        <center>
+
+        {{#each joke in jokes}}
+
+            <div id="RandomJoke" class="panel panel-default" style="width: 500px;">
+                <div class="panel-body">
+                <big> ID: </big> <small> {{joke.id}} </small>
+                <br>
+                <big> Witz: </big> <small> {{joke.joke}} </small>
+                </div>
+            </div>
+
+
+       {{/each}}
+
+        </center>

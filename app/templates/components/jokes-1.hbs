@@ -1,0 +1,15 @@
+{{yield}}
+
+{{#each value in model}}
+    
+        <center>
+            <div id="projektdiv" class="panel panel-default" style="width: 500px;">
+                <div class="panel-body">
+                <big> ID: </big> <small> {{value.id}} </small> 
+                <br>
+                <big> Witz: </big> <small> {{value.joke}} </small>
+                </div>
+            </div>
+        </center>
+    
+{{/each}}

@@ -1,0 +1,16 @@
+{{yield}}
+
+        <center>
+            <div id="RandomJoke" class="panel panel-default" style="width: 500px;">
+                <div class="panel-body">
+                <big> ID: </big> <small> {{Id}} </small> 
+                <br>
+                <big> Witz: </big> <small> {{Joke}} </small>
+                </div>
+            </div>
+            
+        <button type="button" class="btn btn-default btn-lg" {{action 'setJoke'}}>
+          <span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span> Witz Anzeigen
+        </button>
+            
+        </center>

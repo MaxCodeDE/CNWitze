@@ -1,0 +1,63 @@
+
+<center>
+
+<div id="auswahl" style="margin-top: 20%;">
+
+<h1> {{Info}} </h1>
+<br>
+
+<button type="button" class="btn btn-default btn-lg" {{action 'show1'}}>
+  <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Alle Witze
+</button>
+
+<br> <br>
+
+<button type="button" class="btn btn-default btn-lg" {{action 'show2'}}>
+  <span class="glyphicon glyphicon-random" aria-hidden="true"></span> Zufall
+</button>
+
+<br> <br>
+
+<button type="button" class="btn btn-default btn-lg" {{action 'show3'}}>
+  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Die ersten 5
+</button>
+
+<br>
+
+</div>
+
+<div id="APIwitze" style="display: none; margin-top: 5%;">
+    <h3> </h3>
+    <br>
+
+
+{{allJokes-1 jokes=model}}
+
+
+</div>
+
+<div id="RANDOMwitze" style="display: none; margin-top: 5%;">
+
+
+    {{random-1}}
+
+</div>
+
+
+<div id="FIRSTwitze" style="display: none; margin-top: 5%;">
+
+    {{first-jokes-1 jokes=model}}
+
+</div>
+
+    <br>
+
+    <div id="ZurückButton" style="display: none;">
+    <center>
+        <button type="button" class="btn btn-default btn-lg" {{action 'reset'}}>
+          <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> {{ZurueckButton}}
+        </button>
+    </center>
+    </div>
+
+</center>

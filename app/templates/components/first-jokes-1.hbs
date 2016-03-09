@@ -1,0 +1,25 @@
+{{yield}}
+
+        <center>
+
+        {{#each joke in firstJokes}}
+
+            <div id="FirstJokes" class="panel panel-default" style="width: 500px;">
+                <div class="panel-body">
+                <big> ID: </big> <small> {{joke.id}} </small>
+                <br>
+                <big> Witz: </big> <small> {{joke.joke}} </small>
+                </div>
+            </div>
+
+
+
+       {{/each}}
+
+        <div class="input-group" id="FirstJokesAuswahl" style="width: 15%;">
+          <span class="input-group-addon" id="AnzahlSPAN"> Anzahl: </span>
+          {{input name=anzahl type="text" placeholder="Anzahl" value=anzahl on="key-press"}}
+        </div>
+
+
+        </center>
