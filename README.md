@@ -4,8 +4,8 @@ Eins meiner ersten EmberJS Projekte. Eine Frontend-WebApp welche ihre Witze von 
 
 Es können alle Witze, eine bestimmte Anzahl oder Zufällige Witze angezeigt werden.
 
-Link zum Projekt:
-[Chuck Norris Witze Seite](http://server.max-bremer.info:8083/CNWitze/)
+Link zum Projekt auf meinem Blog.
+
 
 ## Vorraussetzungen
 
